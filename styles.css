@@ -1,0 +1,156 @@
+
+#click{
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    animation: fade;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    border: 10px black;
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ .click ul{
+    list-style-type: none;
+    border: 5px black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    background-color: hsl(0, 0%, 5%, 0.5);
+ 
+ }
+ 
+ .click a{
+ 
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    animation: fade;
+    animation-duration: 1.5s;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    border: 5px black;
+ }
+ 
+ .click a:hover{
+    text-shadow: 0 1px 5px white;
+ 
+ }
+ .click a:hover{
+    text-shadow: 0 2px 20px white;
+ 
+ }
+ 
+
+body{
+    background-image:url(https://i.ytimg.com/vi/WQjpiLBIkuE/maxresdefault.jpg);
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0px 3px 20px;
+    animation: fade;
+    animation-duration: 1.5s;
+
+}
+
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    box-shadow: 0px 3px 15px rgb(0, 0, 0);
+    animation: fade;
+    animation-duration: 1.5s;
+
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding:20px;
+    animation: fade;
+    animation-duration: 1.5s;
+
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size:3rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px black;
+    animation: fade;
+    animation-duration: 1.5s;
+
+
+}
+
+button:hover{
+   background-color: hsl(0, 0%, 40%);
+   box-shadow: 0px 3px 15px;
+   font-size:3.25rem;
+
+}
+
+button:active{
+    background-color: hsl(0, 0%, 60%);
+    box-shadow: 0px 3px 20px;
+    font-size:3.5rem;
+
+}
+
+.operator{
+    background-color: hsl(42, 100%, 50%);
+    animation: fade;
+    animation-duration: 1.5s;
+
+}
+.operator:hover{
+    background-color: hsl(42, 100%, 60%);
+    box-shadow: 0px 3px 15px orange;
+    font-size:3.25rem;
+
+}
+.operator:active{
+    background-color: hsl(42, 100%, 80%);
+    box-shadow: 0px 3px 15px orange;
+    font-size:3.5rem;
+
+}
+
+
+
+
+ @keyframes fade {
+    from {opacity: .5;}
+    to {opacity: 1;}
+ }
