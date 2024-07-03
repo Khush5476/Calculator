@@ -14,6 +14,8 @@
  
  
  }
+
+
  
  
  
@@ -150,6 +152,12 @@ button:active{
     box-shadow: 0px 3px 15px orange;
     font-size:3.5rem;
 
+}
+
+@media (max-width:1400px) {
+  .click ul{
+      grid-template-columns: repeat(4, 2fr);
+  }
 }
 
 
